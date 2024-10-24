@@ -1,0 +1,90 @@
+.homepage-main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #1b1b1b;
+  color: #e0e0e0;
+}
+
+.homepage-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.homepage-profile-image {
+  width: 240px;
+  height: 240px;
+  border-radius: 10%;
+  border: 3px solid #70a1ff;
+  margin-bottom: 25px;
+}
+
+.homepage-name {
+  font-size: 3em;
+  margin-bottom: 5px;
+  color: #70a1ff;
+  font-weight: bold;
+}
+
+.homepage-subtitle {
+  font-size: 1.1em;
+  text-align: center;
+  color: #e8e3e3;
+  font-weight: bold;
+}
+
+.homepage-links-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-links-list-item {
+  margin-bottom: 15px;
+}
+.homepage-link-card {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #70a1ff;
+  width: 320px;
+  height: 100px;
+}
+
+.homepage-link-card:hover {
+  background-color: #3a3a3a;
+  transform: scale(1.02);
+}
+
+.homepage-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  margin-right: 15px;
+}
+
+.homepage-link-text {
+  flex: 1;
+}
+
+.homepage-link-text h2 {
+  font-size: 1.2em;
+  margin: 0;
+  text-align: left;
+}
+
+.homepage-link-text p {
+  font-size: 0.8em;
+  margin: 3px 0 0 0;
+  color: #a0a0a0;
+  text-align: left;
+}

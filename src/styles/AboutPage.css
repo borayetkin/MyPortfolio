@@ -1,0 +1,46 @@
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-section {
+  background-color: #2b2b2b;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  color: #e0e0e0;
+}
+
+.about-section h2 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #70a1ff;
+}
+
+.about-section .location {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #eaeaea;
+  margin-bottom: 1px;
+}
+
+.about-section .date {
+  font-size: 1.2em;
+  color: #d1d1d1;
+  margin-bottom: 0px;
+}
+
+.about-section .content {
+  margin-top: 30px;
+  line-height: 1.6;
+  font-size: 1.1em;
+  color: #ffffff;
+}
