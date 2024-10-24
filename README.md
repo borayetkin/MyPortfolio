@@ -10,7 +10,6 @@ Tech Stack
 
 	•	Frontend: React
 	•	CSS Framework: Pure CSS (with custom styles)
-	•	Version Control: Git and GitHub
 	•	Icons: FontAwesome
 
 ## Getting Started
