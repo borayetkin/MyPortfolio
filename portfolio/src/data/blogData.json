@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "My First Blog Post",
+    "date": "2024-10-24",
+    "content": "Welcome to my first blog post! In this post, I will share some thoughts about building this portfolio website using React."
+  },
+  {
+    "id": 2,
+    "title": "Learning React",
+    "date": "2024-10-25",
+    "content": "In this post, I'll walk you through some key concepts I learned while building a project with React and Vite."
+  }
+]
