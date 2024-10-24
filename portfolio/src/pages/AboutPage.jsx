@@ -6,7 +6,7 @@ import aboutData from "../data/aboutData.json"; // Importing JSON data
 const AboutPage = () => {
   return (
     <div className="main-content about-page">
-      <h1>About Me</h1>
+      <h1>About</h1>
       <ul className="about-list">
         {aboutData.about.map((section) => (
           <li key={section.id} className="about-section">
