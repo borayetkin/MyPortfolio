@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/BlogPage.css"; // Importing the new CSS file
 import blogData from "../data/blogData.json";
 
@@ -9,9 +10,11 @@ const BlogPage = () => {
       <ul className="blog-list">
         {blogData.map((post) => (
           <li key={post.id} className="blog-post">
-            <h2>{post.title}</h2>
-            <p className="date">{post.date}</p>
-            <p className="content">{post.content}</p>
+            <Link to={`/blog/${post.id}`} className="blog-post-link">
+              <h2>{post.title}</h2>
+              <p className="date">{post.date}</p>
+              <p className="content">{post.summary}</p>
+            </Link>
           </li>
         ))}
       </ul>

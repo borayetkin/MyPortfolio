@@ -1,0 +1,25 @@
+{
+  "about": [
+    {
+      "id": 1,
+      "title": "Bilkent University, Faculty of Business Administration",
+      "location": "Ankara, Turkey",
+      "date": "2021 - 2025",
+      "content": "B.Sc. in Management; CGPA: 3.07/4.00"
+    },
+    {
+      "id": 2,
+      "title": "KEDGE Business School, Erasmus Exchange Program",
+      "location": "Marseille, France",
+      "date": "Jan - May 2024",
+      "content": "Relevant Courses: Corporate Strategy, Financial Analysis, Supply Chain Management, Sustainable Development, International Marketing, Geopolitics"
+    },
+    {
+      "id": 3,
+      "title": "Kabataş Erkek High School",
+      "location": "Istanbul, Turkey",
+      "date": "2016 - 2021",
+      "content": ""
+    }
+  ]
+}

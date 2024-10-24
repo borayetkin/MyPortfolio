@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portfolio Website",
+      "date": "2024",
+      "location": "Personal Project",
+      "content": "Built a responsive portfolio website using React and Vite with dynamic blog pages and interactive design."
+    },
+    {
+      "id": 2,
+      "title": "Distributed Key-Value Store",
+      "date": "2024",
+      "location": "Distributed Systems Course",
+      "content": "Developed a distributed key-value store with fault tolerance and replication using a basic consensus algorithm."
+    },
+    {
+      "id": 3,
+      "title": "HR Automation System",
+      "date": "2024",
+      "location": "Senior Project",
+      "content": "Built a system to automate CV parsing, rating, and AI-based question generation for candidate evaluations."
+    }
+  ]
+}

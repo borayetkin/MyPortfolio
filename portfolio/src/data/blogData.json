@@ -3,12 +3,14 @@
     "id": 1,
     "title": "My First Blog Post",
     "date": "2024-10-24",
-    "content": "Welcome to my first blog post! In this post, I will share some thoughts about building this portfolio website using React."
+    "summary": "Welcome to my first blog post! In this post, I will share some thoughts about building this portfolio website using React.",
+    "content": "Welcome to my first blog post! In this post, I will share some thoughts about building this portfolio website using React. Building a portfolio using React was an exciting journey where I explored the fundamentals of component-based development, routing, and styling with modern tools. I decided to use Vite for faster development and hot module replacement, which saved me a lot of time. Throughout this journey, I learned about state management, conditional rendering, and creating reusable components. This is just the beginning of my web development journey!"
   },
   {
     "id": 2,
     "title": "Learning React",
     "date": "2024-10-25",
-    "content": "In this post, I'll walk you through some key concepts I learned while building a project with React and Vite."
+    "summary": "In this post, I'll walk you through some key concepts I learned while building a project with React and Vite.",
+    "content": "In this post, I'll walk you through some key concepts I learned while building a project with React and Vite. When I started this project, I focused on setting up a development environment using Vite because it provided a fast and efficient workflow. I explored JSX syntax, learned about React hooks like useState and useEffect, and got hands-on experience with routing using React Router. One of the challenges I faced was managing state between components, which led me to explore different state management approaches. Overall, it was a fantastic experience diving deeper into the React ecosystem!"
   }
 ]

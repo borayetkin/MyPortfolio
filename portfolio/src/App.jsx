@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import BlogPage from "./pages/BlogPage";
+import SingleBlogPage from "./pages/SingleBlogPage";
 import ProjectsPage from "./pages/ProjectsPage";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:id" element={<SingleBlogPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="*" element={<h2>Page Not Found</h2>} />
       </Routes>

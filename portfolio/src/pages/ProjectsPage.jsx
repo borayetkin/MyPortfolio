@@ -1,15 +1,23 @@
 import React from "react";
+import "../styles/ProjectsPage.css";
+import projectData from "../data/projectData.json"; // Importing JSON data
 
-const HomePage = () => {
+const ProjectsPage = () => {
   return (
-    <div className="main-content">
+    <div className="main-content projects-page">
       <h1>Projects</h1>
-      <p>
-        This is the homepage where you can find information about me and read my
-        blog posts.
-      </p>
+      <ul className="projects-list">
+        {projectData.projects.map((project) => (
+          <li key={project.id} className="projects-section">
+            <h2>{project.title}</h2>
+            <p className="location">{project.location}</p>
+            <p className="date">{project.date}</p>
+            <p className="content">{project.content}</p>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
 
-export default HomePage;
+export default ProjectsPage;

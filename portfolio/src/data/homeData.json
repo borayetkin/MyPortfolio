@@ -1,0 +1,27 @@
+{
+  "name": "Oytunç Tetik",
+  "subtitle": "Who Am I",
+  "links": [
+    {
+      "id": 1,
+      "title": "LinkedIn",
+      "description": "Connect with me",
+      "icon": "faLinkedin",
+      "url": "https://www.linkedin.com/in/oytunc-tetik"
+    },
+    {
+      "id": 2,
+      "title": "Resume",
+      "description": "Check my resume",
+      "icon": "faFile",
+      "url": "/cv.pdf"
+    },
+    {
+      "id": 3,
+      "title": "Email",
+      "description": "Contact me via email",
+      "icon": "faEnvelope",
+      "url": "mailto:your-email@example.com"
+    }
+  ]
+}

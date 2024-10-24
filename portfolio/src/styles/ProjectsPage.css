@@ -1,15 +1,15 @@
-.about-page {
+.projects-page {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.about-list {
+.projects-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.about-section {
+.projects-section {
   background-color: #2b2b2b; /* Darker gray for better contrast */
   padding: 30px; /* More padding for content spacing */
   border-radius: 10px; /* Rounder corners */
@@ -18,27 +18,27 @@
   color: #e0e0e0; /* Lighter text for better readability */
 }
 
-.about-section h2 {
+.projects-section h2 {
   margin: 0 0 10px;
   font-size: 1.5em;
   font-weight: bold;
   color: #70a1ff;
 }
 
-.about-section .location {
+.projects-section .location {
   font-size: 1.2em;
   font-weight: bold;
   color: #eaeaea;
   margin-bottom: 1px;
 }
 
-.about-section .date {
+.projects-section .date {
   font-size: 1.2em;
   color: #d1d1d1;
   margin-bottom: 0px;
 }
 
-.about-section .content {
+.projects-section .content {
   margin-top: 30px;
   line-height: 1.6;
   font-size: 1.1em;

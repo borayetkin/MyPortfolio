@@ -1,0 +1,60 @@
+/* Single Blog Page Styling */
+.single-blog-page {
+  max-width: 900px; /* Increase the max-width for wider layout */
+  margin: 0 auto;
+  padding: 120px 20px 20px 20px;
+}
+
+/* Blog Section Styling */
+.blog-about-section {
+  background-color: #2b2b2b; /* Darker gray for better contrast */
+  padding: 30px; /* More padding for content spacing */
+  border-radius: 10px; /* Rounder corners */
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Adjust shadow for better contrast */
+  color: #e0e0e0; /* Lighter text for better readability */
+}
+
+/* Blog Image Styling */
+.blog-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 10px 10px 0 0; /* Rounded corners for the top of the box */
+  margin-bottom: 20px; /* Spacing between the image and title */
+}
+
+/* Blog Title Styling */
+.blog-title {
+  font-size: 2.2em;
+  color: #70a1ff;
+  margin: 0 0 10px;
+}
+
+/* Date Styling */
+.date {
+  font-size: 1em;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+
+/* Content Styling */
+.content {
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .single-blog-page {
+    padding: 100px 15px 15px 15px; /* Adjust padding for smaller screens */
+  }
+
+  .about-section {
+    padding: 20px;
+  }
+
+  .blog-title {
+    font-size: 1.8em;
+  }
+}
