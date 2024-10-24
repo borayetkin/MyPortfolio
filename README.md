@@ -34,4 +34,10 @@ To run this project locally, follow these steps:
 5. **Open http://localhost:5173 to view it in the browser**.
 
 
-Feel free to modify the content based on your own preferences and project details. 
+## Author
+
+**Bora Yetkin**
+
+- [My LinkedIn](https://linkedin.com/in/bora-yetkin)
+
+Feel free to contact me or connect with me for any questions or feedback.
